@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.scroll-container {
+    width: 10000px; /* Adjust the width based on your content */
+    animation: scroll 50s linear infinite; /* Adjust animation duration as needed */
+}
+
+.image-container {
+    display: flex;
+}
+
+img {
+    width: 100%; /* Adjust the width of individual images */
+    height: auto;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(50%); /* Start scrolling from right */
+    }
+    to {
+        transform: translateX(-100%); /* Scroll to the left */
+    }
+}
