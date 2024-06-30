@@ -15,7 +15,7 @@ function welcome4(){
     window.open("https://www.youtube.com/@thequestmedia7207")
 }
 function welcome5(){
-    window.open("https://github.com/Hemanth3096?tab=repositories")
+    window.open("https://github.com/HemanthVeeramalli")
 }
 
 
